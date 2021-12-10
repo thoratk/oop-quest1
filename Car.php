@@ -16,7 +16,7 @@ class Car
     return "Go !";
     }
     public function forward():string{
-        $this->currentSpeed=0;
+        $this->currentSpeed=15;
         return "Go !";
     }
     public function brake(): string{
